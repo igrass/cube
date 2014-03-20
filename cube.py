@@ -105,7 +105,6 @@ class Cube():
 
         elif side == 2:
             # side yz
-            cubeMatrixCopy = self.cubeMatrix
             for i in range(self.cubeSize):
                 for j in range(self.cubeSize):
                     print self.cubeMatrix[layer][i][j][2],
